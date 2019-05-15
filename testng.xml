@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="FriendsuranceExpensetrackerTestSuite"
+	parallel="tests">
+	<test name="ExpensetrackerTestOnChrome">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.expensetracker.testcases.RegisterUserPageTestCase" />
+			<class name="com.expensetracker.testcases.LoginPageTestCase" />
+			<class name="com.expensetracker.testcases.EditAccountPageTestCase" />
+			<class name="com.expensetracker.testcases.AddCategoryPageTestCase" />
+			<class name="com.expensetracker.testcases.EditCategoryPageTestCase" />
+			<class name="com.expensetracker.testcases.ListCategoryPageTestCase" />
+			<class name="com.expensetracker.testcases.DeleteCategoryPageTestCase" />
+			<class name="com.expensetracker.testcases.AddExpensePageTestCase" />
+			<class name="com.expensetracker.testcases.EditExpensePageTestCase" />
+			<class name="com.expensetracker.testcases.ListExpensePageTestCase" />
+			<class name="com.expensetracker.testcases.CopyExpensePageTestCase" />
+			<class name="com.expensetracker.testcases.DeleteExpensePageTestCase" />
+			<class name="com.expensetracker.testcases.ShowStatisticsPageTestCase" />
+		</classes>
+	</test>
+</suite> 
